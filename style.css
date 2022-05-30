@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  outline: none;
+}
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid;
+}
+.blc {
+  width: 150px;
+  height: 150px;
+}
+.anm {
+  animation: colors 0.5s infinite;
+  transform: 3s;
+  border-radius: 5px;
+}
+
+@keyframes colors {
+  0% {
+    background: red;
+  }
+  10% {
+    background: orange;
+  }
+  20% {
+    background: green;
+  }
+  30% {
+    background: yellow;
+  }
+  40% {
+    background: red;
+  }
+  50% {
+    background: red;
+  }
+  60% {
+    background: orange;
+  }
+  70% {
+    background: green;
+  }
+  80% {
+    background: yellow;
+  }
+  90% {
+    background: greenyellow;
+  }
+  100% {
+    background: red;
+  }
+}
